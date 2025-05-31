@@ -10,13 +10,70 @@ This is a Laravel REST API for managing users — providing CRUD operations, val
 - Email uniqueness validation
 - API tests using PHPUnit
 
-## 🛠 Requirements
-- PHP >= 8.x
-- Composer
-- MySQL
-- Laravel 10+
+📁 Project Structure
+This repository contains two separate projects:
 
-## 📦 Installation
+1️⃣ Backend (Laravel) Details
+  The backend is built using Laravel and provides the RESTful API for managing users.
+  
+  Key components:
+  
+  Routes → defined in routes/api.php
+  
+  Includes routes for listing users, creating, updating, deleting, and fetching individual users.
+  
+  Also includes a custom route for clearing cache/routes if needed.
+  
+  Models → located in app/Models/User.php
+  
+  Defines the User model and its attributes.
+  
+  Controllers → located in app/Http/Controllers/UserController.php
+  
+  Contains all the core logic for user CRUD operations.
+  
+  Database connection → handled via the .env file
+  
+  Make sure to configure the .env with your local or production database settings:
+  
+  env
+  Copy
+  Edit
+  DB_CONNECTION=mysql
+  DB_HOST=127.0.0.1
+  DB_PORT=3306
+  DB_DATABASE=your_database_name
+  DB_USERNAME=your_username
+  DB_PASSWORD=your_password
+  Migrations → located in database/migrations
+  
+  Define the schema for the users table.
+  
+  Factories → located in database/factories/UserFactory.php
+  
+  Used to seed fake user data for testing.
+  
+  Feature Tests → located in tests/Feature/UserApiTest.php
+  
+  Automated tests to ensure API endpoints work correctly.
+
+2️⃣ Frontend (Vue.js)
+
+  Located in the user-management-frontend folder.
+  
+  Contains all the frontend components such as:
+  
+  Dashboard: Displays a list of all users.
+  
+  Create User: Form to add a new user.
+  
+  Edit User: Form to update existing user details.
+  
+  Delete User: Option to remove a user.
+  
+  All frontend components can be found inside the src folder of the Vue project.
+  
+  The frontend interacts with the backend API to perform CRUD operations.
 
 
 | Method | Endpoint        | Description     |
