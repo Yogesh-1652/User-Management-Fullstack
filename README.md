@@ -29,6 +29,7 @@ This is a Laravel REST API for managing users — providing CRUD operations, val
 
 
 [[User-Management-fullstack/user-management-backend/resources/screenshots/1.png](https://postimg.cc/PChbwX9Z)](https://i.postimg.cc/RZJg2qTP/1.png)
+[url=https://postimg.cc/PChbwX9Z][img]https://i.postimg.cc/PChbwX9Z/1.png[/img][/url]
 C:\wamp64\www\user-management-api\resources\screenshots\2.png
 C:\wamp64\www\user-management-api\resources\screenshots\3.png
 C:\wamp64\www\user-management-api\resources\screenshots\4.png
