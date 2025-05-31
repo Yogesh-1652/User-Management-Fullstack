@@ -28,7 +28,7 @@ This is a Laravel REST API for managing users — providing CRUD operations, val
 | DELETE | /api/users/{id} | Delete user     |
 
 
-[User-Management-fullstack/user-management-backend/resources/screenshots/1.png](https://postimg.cc/PChbwX9Z)
+[[User-Management-fullstack/user-management-backend/resources/screenshots/1.png](https://postimg.cc/PChbwX9Z)](https://i.postimg.cc/RZJg2qTP/1.png)
 C:\wamp64\www\user-management-api\resources\screenshots\2.png
 C:\wamp64\www\user-management-api\resources\screenshots\3.png
 C:\wamp64\www\user-management-api\resources\screenshots\4.png
