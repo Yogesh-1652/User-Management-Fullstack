@@ -10,7 +10,14 @@ This is a Laravel REST API for managing users — providing CRUD operations, val
 - Email uniqueness validation
 - API tests using PHPUnit
 
-📁 Project Structure
+🏗 Project Structure
+/user-management
+├── user-management-frontend/   → Vue.js project (src/components, Dashboard.vue, etc.)
+├── user-management-backend/    → Laravel project (routes, models, controllers, .env)
+├── database.sql                → MySQL database dump file
+├── README.md                   → This file!
+└── screenshots/                → Project screenshots (uploaded on GitHub or locally)
+
 This repository contains two separate projects:
 
 1️⃣ Backend (Laravel) Details
@@ -75,14 +82,40 @@ This repository contains two separate projects:
   
   The frontend interacts with the backend API to perform CRUD operations.
 
+  | Method | Endpoint          | Description           | Example Payload (if POST/PUT)                                               |
+| ------ | ----------------- | --------------------- | --------------------------------------------------------------------------- |
+| GET    | `/api/users`      | Get all users         | —                                                                           |
+| GET    | `/api/users/{id}` | Get single user by ID | —                                                                           |
+| POST   | `/api/users`      | Create new user       | `{ "firstName": "John", "lastName": "Doe", "email": "john@example.com" }`   |
+| PUT    | `/api/users/{id}` | Update existing user  | `{ "firstName": "Jane", "lastName": "Smith", "email": "jane@example.com" }` |
+| DELETE | `/api/users/{id}` | Delete user by ID     | —                                                                           |
 
-| Method | Endpoint        | Description     |
-| ------ | --------------- | --------------- |
-| GET    | /api/users      | List all users  |
-| GET    | /api/users/{id} | Get single user |
-| POST   | /api/users      | Create new user |
-| PUT    | /api/users/{id} | Update user     |
-| DELETE | /api/users/{id} | Delete user     |
+
+
+✅ Automated Testing (using PHPUnit):
+
+1️⃣ Run tests with Artisan command:
+
+php artisan test
+2️⃣ What it covers (inside tests/Feature/UserApiTest.php):
+Can create a user.
+
+Cannot create a user with duplicate email (checks unique constraint).
+
+Can retrieve all users.
+
+Can retrieve a single user.
+
+Can update a user.
+
+Can delete a user.
+
+✅ Important:
+Before running automated tests, ensure:
+
+You are on the testing database (usually configured in .env.testing or .env).
+
+Run fresh migrations:
 
 
 [[User-Management-fullstack/user-management-backend/resources/screenshots/1.png](https://postimg.cc/PChbwX9Z)](https://i.postimg.cc/RZJg2qTP/1.png)  
