@@ -29,11 +29,10 @@ This is a Laravel REST API for managing users — providing CRUD operations, val
 
 
 [[User-Management-fullstack/user-management-backend/resources/screenshots/1.png](https://postimg.cc/PChbwX9Z)](https://i.postimg.cc/RZJg2qTP/1.png)
-[url=https://postimg.cc/PChbwX9Z][img]https://i.postimg.cc/PChbwX9Z/1.png[/img][/url]
-C:\wamp64\www\user-management-api\resources\screenshots\2.png
-C:\wamp64\www\user-management-api\resources\screenshots\3.png
-C:\wamp64\www\user-management-api\resources\screenshots\4.png
-C:\wamp64\www\user-management-api\resources\screenshots\5.png
+[url=https://postimg.cc/xXtmNKKD][img]https://i.postimg.cc/xXtmNKKD/2.png[/img][/url]
+https://postimg.cc/ygS3Gt2s
+https://postimg.cc/JHNDrJ1F
+https://postimg.cc/hXyJtKBK
 
 
 “You can import the provided `database/user_management.sql` to preload demo data.”
