@@ -43,16 +43,14 @@ This repository contains two separate projects:
   
   Make sure to configure the .env with your local or production database settings:
   
-  env
-  Copy
-  Edit
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=user_management
-  DB_USERNAME=root
-  DB_PASSWORD=
-  Migrations → located in database/migrations
+  .env  
+  DB_CONNECTION=mysql  
+  DB_HOST=127.0.0.1  
+  DB_PORT=3306  
+  DB_DATABASE=user_management  
+  DB_USERNAME=root  
+  DB_PASSWORD=  
+  Migrations → located in database/migrations  
   
   Define the schema for the users table.
   
