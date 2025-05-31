@@ -10,13 +10,13 @@ This is a Laravel REST API for managing users — providing CRUD operations, val
 - Email uniqueness validation
 - API tests using PHPUnit
 
-🏗 Project Structure
-/user-management
-├── user-management-frontend/   → Vue.js project (src/components, Dashboard.vue, etc.)
-├── user-management-backend/    → Laravel project (routes, models, controllers, .env)
-├── database.sql                → MySQL database dump file
-├── README.md                   → This file!
-└── screenshots/                → Project screenshots (uploaded on GitHub or locally)
+🏗 Project Structure  
+/user-management  
+├── user-management-frontend/   → Vue.js project (src/components, Dashboard.vue, etc.)  
+├── user-management-backend/    → Laravel project (routes, models, controllers, .env)  
+├── database.sql                → MySQL database dump file  
+├── README.md                   → This file!  
+└── screenshots/                → Project screenshots (uploaded on GitHub or locally)  
 
 This repository contains two separate projects:
 
